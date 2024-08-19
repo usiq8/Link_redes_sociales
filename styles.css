@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.centrar_main {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center;   
+    align-items: center;       
+    padding: 20px;             
+    border: 2px solid #000000; 
+    border-radius: 10px;       
+    background-color: hsl(0, 0%, 12%);    
+}
+
+.form-group.mb-3 {
+    width: 100%;               /* Asegura que los enlaces ocupen todo el ancho disponible */
+    display: flex;
+    justify-content: center;   /* Centra los enlaces dentro del form-group */
+    margin-bottom: 1rem;       /* Espaciado entre los grupos */
+}
+
+.form-group.mb-3 a {
+    display: inline-block;      
+    padding: 10px 20px;         
+    font-size: 16px;            
+    color: hsl(0, 0%, 100%);               
+    background-color: hsl(0, 0%, 20%);  
+    border: none;               
+    border-radius: 5px;         
+    text-align: center;         
+    text-decoration: none;      
+    transition: background-color 0.3s ease; 
+    width: 200px; 
+    box-sizing: border-box;
+}
+
+.form-group.mb-3 a:hover {
+    background-color:  hsl(75, 94%, 57%)  
+                 
+}
+
+.circle-image {
+    width: 150px;              
+    height: 150px;             
+    border-radius: 50%;        
+    object-fit: cover;         
+    border: 2px solid #ffffff;  
+}
+
+.textos {
+    text-align: center;
+}
+
+h4{
+    color: #fcfffa;
+}
+
+h5{
+    color: #75ff05;
+}
+
+h6{
+    color: #e6e6e6;
+}
